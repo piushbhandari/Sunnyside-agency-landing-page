@@ -1,0 +1,89 @@
+/* 
+================================ 
+    TYPOGRaPHY
+================================ 
+*/
+.nav_a {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.128571px;
+}
+.cta {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.107143px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.cta,
+.name {
+  font-family: "Fraunces", serif;
+}
+.primary-header {
+  font-weight: 900;
+  font-size: 5.6rem;
+  line-height: 6.9rem;
+  letter-spacing: 0.875rem;
+  text-transform: uppercase;
+}
+.secondary-header {
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 4.9rem;
+  letter-spacing: -0.285714px;
+}
+.secondary-header--teste {
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+.tertiary-header {
+  font-weight: 900;
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.2px;
+}
+.large-desc {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: -0.128571px;
+}
+.large-desc--special {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: -0.128571px;
+}
+
+.medium-desc {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  letter-spacing: -0.114286px;
+}
+.name {
+  font-weight: 900;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  letter-spacing: -0.128571px;
+}
+.job {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.1px;
+}
+/* 
+================================ 
+    TYPOGRaPHY
+================================ 
+*/
