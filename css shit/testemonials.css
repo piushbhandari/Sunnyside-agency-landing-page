@@ -9,6 +9,8 @@
 .section-testemonials__secondary-header {
   margin-bottom: 8.1rem;
   color: #a7aaad;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 .section-testmonials__testemonials {
   gap: 3rem;
