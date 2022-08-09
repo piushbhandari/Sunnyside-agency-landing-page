@@ -1,0 +1,55 @@
+.section-testemonials {
+  padding: 16rem 2.4rem;
+}
+.section-testemonials__cont {
+  max-width: 111rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-testemonials__secondary-header {
+  margin-bottom: 8.1rem;
+  color: #a7aaad;
+}
+.section-testmonials__testemonials {
+  gap: 3rem;
+}
+.section-testemonials__avatar-box {
+  width: 7.2rem;
+  height: 7.2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 5.8rem;
+}
+.section-testemonials__description {
+  color: #5b636d;
+  margin: 0 auto;
+  margin-bottom: 6.9rem;
+  max-width: 35rem;
+}
+.section-testemonials__name {
+  color: #24303e;
+  margin-bottom: 0.9rem;
+}
+.section-testemonials__job-title {
+  color: #a7aaad;
+}
+
+@media all and (max-width: 736px) {
+  .section-testemonials {
+    padding: 6.4rem 2.4rem;
+  }
+  .section-testemonials__secondary-header {
+    margin-bottom: 6.4rem;
+  }
+  .section-testmonials__testemonials {
+    gap: 6.4rem;
+    flex-direction: column;
+  }
+  .section-testemonials__avatar-box {
+    margin-bottom: 3.2rem;
+  }
+  .section-testemonials__description {
+    margin-bottom: 3.2rem;
+  }
+}
