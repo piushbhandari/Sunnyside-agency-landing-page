@@ -1,3 +1,44 @@
-.header{
-    display: none;
+.header {
+  background-image: url("./../images/desktop/image-header.jpg");
+  min-height: 80rem;
+  background-size: cover;
+  background-position: center;
+  padding: 3.4rem 4.8rem 0 4rem;
+}
+.header__nav {
+  max-width: 135.2rem;
+  margin: 0 auto;
+  margin-bottom: 10.5rem;
+}
+.header__nav-links {
+  gap: 4.7rem;
+}
+.header__nav-link {
+  color: white;
+}
+.header__nav-cta {
+  display: block;
+  border-radius: 2.8rem;
+  padding: 1.6rem 3rem 1.5rem 3.2rem;
+  background: white;
+  color: #24303e;
+}
+.header__nav-link:hover,
+.header__nav-link:focus {
+  text-decoration: underline;
+}
+.header__nav-cta:focus,
+.header__nav-cta:hover {
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+  transform: translateY(-0.5rem);
+  text-decoration: none;
+}
+.header__title {
+  text-align: center;
+  color: white;
+  margin-bottom: 9.654rem;
+}
+.header__arrow-box {
+  text-align: center;
 }
