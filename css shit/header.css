@@ -42,3 +42,49 @@
 .header__arrow-box {
   text-align: center;
 }
+.header__mobile-menubtn {
+  width: 24px;
+  height: 18px;
+  display: none;
+}
+.header__mobile-menubtn img {
+  pointer-events: none;
+}
+.header__mobile-menubtn:focus,
+.header__mobile-menubtn:hover {
+  transform: translateY(-0.5rem);
+}
+
+@media all and (max-width: 766px) {
+  .header__nav {
+    margin-bottom: 8.8rem;
+  }
+  .header__title {
+    margin-bottom: 5.2rem;
+  }
+  .header__nav-links {
+    display: none;
+  }
+  .header__mobile-menubtn {
+    display: flex;
+  }
+}
+@media all and (max-width: 600px) {
+  * {
+    border: 1px solid red;
+  }
+  .header {
+    background-image: url("./../images/mobile/image-header.jpg");
+    min-height: 53.8rem;
+    background-size: cover;
+    background-position: center;
+    padding: 3.2rem 2.4rem 0 2.4rem;
+  }
+  .header__title {
+    font-size: 4rem;
+    line-height: 4.9rem;
+    letter-spacing: 0.625px;
+    overflow-wrap: break-word;
+    hyphens: manual;
+  }
+}
