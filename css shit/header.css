@@ -9,6 +9,7 @@
   max-width: 135.2rem;
   margin: 0 auto;
   margin-bottom: 10.5rem;
+  position: relative;
 }
 .header__nav-links {
   gap: 4.7rem;
@@ -62,17 +63,37 @@
   .header__title {
     margin-bottom: 5.2rem;
   }
+
+  .header__nav-links.active {
+    display: flex;
+  }
   .header__nav-links {
     display: none;
+    padding: 3.9rem 0;
+    position: absolute;
+    top: 7.4rem;
+    background: white;
+    width: 100%;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+  .header__nav-link {
+    color: #808397;
+  }
+  .header__nav-cta {
+    background: #fbd600;
+    color: #24303e;
+  }
+  .header__nav-cta:hover,
+  .header__nav-cta:focus {
+    color: #24303e;
+    background: rgba(251, 214, 0, 0.6);
   }
   .header__mobile-menubtn {
     display: flex;
   }
 }
 @media all and (max-width: 600px) {
-  * {
-    border: 1px solid red;
-  }
   .header {
     background-image: url("./../images/mobile/image-header.jpg");
     min-height: 53.8rem;
